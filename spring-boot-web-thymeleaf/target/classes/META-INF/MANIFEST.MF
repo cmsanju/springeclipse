@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: sanjeevg
+Build-Jdk: 15.0.2
+Implementation-Title: Spring Boot Web Thymeleaf Example
+Implementation-Version: 1.0
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-we
+ b-thymeleaf/
+Created-By: Maven Integration for Eclipse
+
