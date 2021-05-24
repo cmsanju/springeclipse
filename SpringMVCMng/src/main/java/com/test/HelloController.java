@@ -35,7 +35,7 @@ public class HelloController
 		
 		String userD = user+" "+pass;
 		
-		model.addAttribute("info", userD);
+		model.addAttribute("info1", userD);
 		
 		return "userdetails";
 	}

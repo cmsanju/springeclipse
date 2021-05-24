@@ -8,6 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-		${info1}
+		<h3>Customer 	Details</h3>
+		
+		Customer ID : ${info.id}<br>
+		Customer Name : ${info.name}<br>
+		Customer City : ${info.city}<br>
 </body>
 </html>
