@@ -12,6 +12,7 @@
 	<artifactId>SpringBootValidations</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootValidations</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -57,7 +58,12 @@
 			<version>2.4.0</version>
 		</dependency>
 		
-		
+		<!-- Optional, for bootstrap -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>3.3.7</version>
+		</dependency>
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
