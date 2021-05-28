@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite2]">
+  <test thread-count="5" name="serviceTest(failed)">
+    <classes>
+      <class name="com.ict.springboot.service.BookServiceTest">
+        <methods>
+          <include name="testGetBookOnTitleNotAvailable"/>
+          <include name="testGetBookOnTitle"/>
+          <include name="testGetBooksOnSubjectNotAvailable"/>
+          <include name="testGetBooksOnSubject"/>
+        </methods>
+      </class> <!-- com.ict.springboot.service.BookServiceTest -->
+    </classes>
+  </test> <!-- serviceTest(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

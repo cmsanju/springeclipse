@@ -33,7 +33,7 @@ class CourierserviceControllerTests {
 	@Test 
 	  public void testCourierBookingForm() throws Exception {
 		  mockMvc.perform(get("/showCourierBookingForm"))
-		 .andExpect(status().isOk()) 
+		 .andExpect(status().isOk())
 		 .andExpect(view().name("courierBooking"));		  
 	  }
 	

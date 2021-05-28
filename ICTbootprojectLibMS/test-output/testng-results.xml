@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66331" started-at="2020-11-06T11:09:24 IST" finished-at="2020-11-06T11:10:30 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66331" started-at="2020-11-06T11:09:24 IST" finished-at="2020-11-06T11:10:30 IST">
+      <class name="com.ict.springboot.selenium.BookPage">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="5513" started-at="2020-11-06T11:09:24 IST" finished-at="2020-11-06T11:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test10BookControllerByTitle()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test10BookControllerByTitle" duration-ms="1756" started-at="2020-11-06T11:09:29 IST" finished-at="2020-11-06T11:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10BookControllerByTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="723" started-at="2020-11-06T11:09:31 IST" finished-at="2020-11-06T11:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3765" started-at="2020-11-06T11:09:32 IST" finished-at="2020-11-06T11:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test11FeedbackResponseBackLinkTextPresent()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test11FeedbackResponseBackLinkTextPresent" duration-ms="549" started-at="2020-11-06T11:09:36 IST" finished-at="2020-11-06T11:09:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11FeedbackResponseBackLinkTextPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="672" started-at="2020-11-06T11:09:36 IST" finished-at="2020-11-06T11:09:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="4544" started-at="2020-11-06T11:09:37 IST" finished-at="2020-11-06T11:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test12subectPageBackLinkAndFeedbackLinkTextPresent()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test12subectPageBackLinkAndFeedbackLinkTextPresent" duration-ms="691" started-at="2020-11-06T11:09:41 IST" finished-at="2020-11-06T11:09:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12subectPageBackLinkAndFeedbackLinkTextPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="636" started-at="2020-11-06T11:09:42 IST" finished-at="2020-11-06T11:09:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3554" started-at="2020-11-06T11:09:43 IST" finished-at="2020-11-06T11:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test13titlePageBackLinkAndFeedbackLinkTextPresent()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test13titlePageBackLinkAndFeedbackLinkTextPresent" duration-ms="565" started-at="2020-11-06T11:09:46 IST" finished-at="2020-11-06T11:09:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13titlePageBackLinkAndFeedbackLinkTextPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="626" started-at="2020-11-06T11:09:47 IST" finished-at="2020-11-06T11:09:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3755" started-at="2020-11-06T11:09:47 IST" finished-at="2020-11-06T11:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test1headingPresent()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test1headingPresent" duration-ms="47" started-at="2020-11-06T11:09:51 IST" finished-at="2020-11-06T11:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1headingPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="624" started-at="2020-11-06T11:09:51 IST" finished-at="2020-11-06T11:09:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3778" started-at="2020-11-06T11:09:52 IST" finished-at="2020-11-06T11:09:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test2BookSearchOptionType()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test2BookSearchOptionType" duration-ms="41" started-at="2020-11-06T11:09:56 IST" finished-at="2020-11-06T11:09:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2BookSearchOptionType -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="640" started-at="2020-11-06T11:09:56 IST" finished-at="2020-11-06T11:09:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3701" started-at="2020-11-06T11:09:56 IST" finished-at="2020-11-06T11:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test3BookNamePresentsTagNameType()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test3BookNamePresentsTagNameType" duration-ms="41" started-at="2020-11-06T11:10:00 IST" finished-at="2020-11-06T11:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3BookNamePresentsTagNameType -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="626" started-at="2020-11-06T11:10:00 IST" finished-at="2020-11-06T11:10:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3531" started-at="2020-11-06T11:10:01 IST" finished-at="2020-11-06T11:10:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test4OptionsEmpty()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test4OptionsEmpty" duration-ms="190" started-at="2020-11-06T11:10:04 IST" finished-at="2020-11-06T11:10:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4OptionsEmpty -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="671" started-at="2020-11-06T11:10:04 IST" finished-at="2020-11-06T11:10:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3670" started-at="2020-11-06T11:10:05 IST" finished-at="2020-11-06T11:10:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test5TitleOrSubjectEmpty()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test5TitleOrSubjectEmpty" duration-ms="386" started-at="2020-11-06T11:10:09 IST" finished-at="2020-11-06T11:10:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5TitleOrSubjectEmpty -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="670" started-at="2020-11-06T11:10:09 IST" finished-at="2020-11-06T11:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3888" started-at="2020-11-06T11:10:10 IST" finished-at="2020-11-06T11:10:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test6FeedbackheadingPresent()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test6FeedbackheadingPresent" duration-ms="161" started-at="2020-11-06T11:10:14 IST" finished-at="2020-11-06T11:10:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6FeedbackheadingPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="639" started-at="2020-11-06T11:10:14 IST" finished-at="2020-11-06T11:10:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3782" started-at="2020-11-06T11:10:15 IST" finished-at="2020-11-06T11:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test7FeedbackFormRatingType()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test7FeedbackFormRatingType" duration-ms="145" started-at="2020-11-06T11:10:18 IST" finished-at="2020-11-06T11:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7FeedbackFormRatingType -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="637" started-at="2020-11-06T11:10:18 IST" finished-at="2020-11-06T11:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="3551" started-at="2020-11-06T11:10:19 IST" finished-at="2020-11-06T11:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test8FeedbackFormTextBoxType()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test8FeedbackFormTextBoxType" duration-ms="140" started-at="2020-11-06T11:10:23 IST" finished-at="2020-11-06T11:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8FeedbackFormTextBoxType -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="668" started-at="2020-11-06T11:10:23 IST" finished-at="2020-11-06T11:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="launchBrowser" is-config="true" duration-ms="4645" started-at="2020-11-06T11:10:23 IST" finished-at="2020-11-06T11:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="test9BookControllerBySubject()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="test9BookControllerBySubject" duration-ms="1382" started-at="2020-11-06T11:10:28 IST" finished-at="2020-11-06T11:10:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9BookControllerBySubject -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ict.springboot.selenium.BookPage@5ef60048]" name="teardown" is-config="true" duration-ms="637" started-at="2020-11-06T11:10:30 IST" finished-at="2020-11-06T11:10:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ict.springboot.selenium.BookPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

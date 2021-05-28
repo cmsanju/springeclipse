@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite2" parallel="false">
+  <test name="serviceTest">
+  
+		    <classes>
+		    <class name="com.ict.springboot.service.BookServiceTest" />
+		</classes>
+		
+  </test>
+</suite>
