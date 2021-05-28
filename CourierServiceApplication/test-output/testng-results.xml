@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="140" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="140" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+      <class name="com.cts.courierservice.servicetestcase.CourierserviceServiceTests">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTrackingNumberIncremented()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="testTrackingNumberIncremented" duration-ms="11" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrackingNumberIncremented -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testcalculatePayableAmount()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="testcalculatePayableAmount" duration-ms="4" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcalculatePayableAmount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testgetCourierDateOfDelivery()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="testgetCourierDateOfDelivery" duration-ms="44" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetCourierDateOfDelivery -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testgetCourierDateOfShipment()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="testgetCourierDateOfShipment" duration-ms="2" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetCourierDateOfShipment -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testgetCourierTrackingNumber()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="testgetCourierTrackingNumber" duration-ms="5" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetCourierTrackingNumber -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.cts.courierservice.servicetestcase.CourierserviceServiceTests@60285225]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-09-13T14:33:36 IST" finished-at="2020-09-13T14:33:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.cts.courierservice.servicetestcase.CourierserviceServiceTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

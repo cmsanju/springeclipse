@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CourierServiceTests">
+	<test name="selenium">
+		<classes>
+			<class name="com.cts.courierservice.seleniumtestcase.CourierBookingForm"/>
+			<class name="com.cts.courierservice.servicetestcase.CourierserviceServiceTests"/>
+			<class name="com.cts.courierservice.controllertestcase.CourierserviceControllerTests"/>
+		</classes>
+	</test>
+</suite>

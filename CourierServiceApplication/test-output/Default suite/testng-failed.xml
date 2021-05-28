@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cts.courierservice.seleniumtestcase.CourierBookingForm">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testpacketWeightInGramsPresentsTagNameType"/>
+          <include name="afterTest"/>
+          <include name="testcustomerNameEmpty"/>
+          <include name="testmobileNumberWrong"/>
+          <include name="testcustomerCity"/>
+          <include name="testFormPresentActionValueMethodName"/>
+          <include name="testSubmitAction"/>
+          <include name="testcourierDeliveryAreaPresentsTagNameType"/>
+          <include name="testheadingPresent"/>
+          <include name="testcourierDeliveryAreaEmpty"/>
+          <include name="testcustomerCityPresentsTagNameType"/>
+          <include name="testcustomerNamePresentsTagNameType"/>
+          <include name="testpacketWeightInGramsWrong"/>
+          <include name="testmobileNumberPresentsTagNameType"/>
+          <include name="testsubmitPresentsTagNameType"/>
+          <include name="testSubmitActionForOverWeight"/>
+        </methods>
+      </class> <!-- com.cts.courierservice.seleniumtestcase.CourierBookingForm -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
