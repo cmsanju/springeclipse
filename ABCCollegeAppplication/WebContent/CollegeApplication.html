@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+#collegeApplication {
+	background-color:cadetblue;
+	font-family: Arial;
+	width: 100%;
+	border:2px solid black;
+
+	
+}
+
+#collegeApplication td,#collegeApplication th
+{
+
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#collegeApplication th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color:lightcyan;
+	color: white;
+}
+
+body {
+	background-color:cornsilk;
+    
+	
+    }
+    
+    h1 {
+	color:#770080;
+	font-family: Courier New;
+	font-style: italic;
+	text-align: center;
+	background-color:cadetblue;
+}
+div{
+    color: red;
+}
+
+form {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#result {
+	color: #770080;
+	font-weight: bold;
+}
+</style>
+
+<script>
+	function applnRegistration() {
+      
+		var cname = document.getElementById("cname").value;
+		var Bdate = new Date(document.getElementById('bdate').value);
+		var email = document.getElementById("email").value;
+
+	var today = new Date();
+
+    if (Bdate.getTime() > today.getTime()) {
+		alert("your DOB can't be greater than today!");
+		return;
+	}
+    var date1=new Date(Bdate);
+    var year=date1.getFullYear();
+    var year1=today.getFullYear();
+    var diff=year1-year;
+    
+     if(diff<16)
+     {
+         alert("you are less than 16 yrs to apply");
+         return;
+     }
+     if(diff>21)
+     {
+         alert("you are over aged to apply");
+         return;
+     }
+
+	
+   var stream = document.getElementById("viewByStream");
+   
+ var option1 = parseInt(stream.options[stream.selectedIndex].value);
+var branch;
+if(option1==1)
+{
+branch="Science";
+}
+if(option1==2)
+{
+    branch="Arts";
+}
+if(option1==3)
+{
+    branch="Commerce";
+}
+
+		        var score = document.getElementById("score").value;	
+        	
+        var score1=parseInt(score);
+        if(score1<60)
+        {
+            alert("Sorry!!you are not eligible for any stream");
+            return;
+
+        }	
+        if(option1==1 && score1<90)
+        {
+            alert("Not eligible for Science Stream");
+            return;
+        }
+        if(option1==3 && score1<80)
+        {
+            alert("Not eligible for Commerce Stream");
+            return;
+        }
+        if(option1==2 && score1<60)
+        {
+            alert("Not eligible for Arts Stream");
+            return;
+        }
+          
+        document.getElementById("result").innerHTML = "Dear "
+				+ cname + ",</br>"+"You are have Eligible  for "+branch+ " Stream !! "+"</br>"+
+                "The payment details will be mailed on  "+email;
+             
+		return false;
+    
+        
+	}
+</script>
+
+<title>ABC College Application</title>
+</head>
+<body>
+
+	
+	<h1 id = "heading1">ABC College Online Application Form-11th Grade</h1>
+	<form onsubmit="return applnRegistration()">
+
+		<table  id="collegeApplication">
+
+            <tr>
+                <td>Aadhaar Card No</td>
+				<td><input type="text" name="aadhaarCardNo"
+                    id="aadhaarCardNo"
+                     pattern="\d{12}"
+					placeholder="Enter your 12 digit aadhaar card no" required="required"></td>
+			</tr>
+
+			<tr>
+				<td>Candidate  Name</td>
+				<td><input type="text" name="cname" id="cname"
+					placeholder="Enter your name" required="required"></td>
+			</tr>
+
+			
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" id="male" value="Male"
+					required="required">Male <input type="radio" name="gender"
+					id="female" value="Female" required="required">Female</td>
+            </tr>
+            
+
+            <tr>
+				<td>Address</td>
+				<td><textarea name="address" id="address" rows="5" cols="20"
+						placeholder="Enter your address" required="required"> </textarea></td>
+			</tr>
+
+            
+
+
+			<tr>
+				<td>Mobile Number</td>
+				<td><input type="text" name="mobileNumber" id="mobileNumber"
+					placeholder="Enter your mobile no" pattern="[7-9]{1}[0-9]{9}"
+					required="required"></td>
+            </tr>
+            
+            			<tr>
+				<td>Email ID</td>
+				<td><input type="email" name="email" id="email"
+					placeholder="Enter your email id" required="required"></td>
+			</tr>
+
+			<tr>
+				<td>Date of Birth</td>
+				<td><input type="date" name="bdate" id="bdate" placeholder="Enter Date of Birth" required="required"></td>
+	            
+            </tr>
+            <tr>    
+                <td>Choose Branch  Stream</td>    
+                 <td> <select id="viewByStream">
+                    <option value="1">Science</option>
+                    <option value="2">Arts</option>
+                    <option value="3">Commerce</option>
+                  
+                  </select>
+                 </td>
+            
+            <tr>
+                          
+                <td>Enter  your 10std pass percentage </td>
+                <td>  <input type="number" id="score" name="score" min="0"  value="0"></td>
+                                               
+                <tr>
+            
+          
+			<tr>
+				<td><input type="submit" value="Submit" id="submit">
+				</td>
+				<td><input type="reset" id="reset" value="Clear"></td>
+			</tr>
+			
+        </table>
+        <div>
+        View your Registration Status:
+        <div id="result"></div>
+    </div>
+	</form>
+</body>
+</html>
+

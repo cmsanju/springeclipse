@@ -29,14 +29,14 @@ public class Exp3 {
 			System.out.println(e.getMessage());
 			
 			//type 2
-			System.out.println(e);
+			System.err.println(e);
 			
 			//type 3
 			e.printStackTrace();
 		}
 		finally
 		{
-			
+			System.out.println("finally block");
 		}
 	}
 
