@@ -2,6 +2,7 @@ package com.org.model;
 
 import java.math.BigInteger;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,6 +16,7 @@ public class Passenger {
 	private BigInteger pnrNumber;
 	private String passengerName;
 	private int passengerAge;
+	@Column(name="passengerUIN", unique=true, nullable=false, precision=10, scale=0)
 	private BigInteger passengerUIN;
 	private Double luggage;
 

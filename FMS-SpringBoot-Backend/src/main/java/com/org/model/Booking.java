@@ -23,7 +23,7 @@ public class Booking {
 	private BigInteger bookingId;
 	private String bookingDate;
 	private int noOfPassengers;
-
+	
 	public BigInteger getBookingId() {
 		return bookingId;
 	}

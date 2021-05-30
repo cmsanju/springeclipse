@@ -64,3 +64,30 @@ public class BookingController {
 		bookingService.deleteBooking(bookingId);
 	}
 }
+/*
+ * {
+    "bookingId": 5,
+    "user":
+    {
+      "userId": 1
+    },
+    "bookingDate":"30thmay",
+    "noOfPassengers": 1,
+    "passengerList": [
+        {
+            "pnrNumber": 11,
+            "passengerName": "Akash",
+            "passengerAge": 18,
+            "passengerUIN": 299784567890,
+            "luggage": 2
+           
+        }
+    ],
+    "ticketCost": 50000,
+    "flight":
+    {
+        "flightNo": 1
+    }
+}  
+ 
+ */
