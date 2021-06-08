@@ -1,4 +1,4 @@
-package com.ths;
+	package com.ths;
 
 public class LifeCycle extends Thread
 {
