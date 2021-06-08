@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Exp1 {
 	
@@ -52,6 +53,18 @@ public class Exp1 {
 		System.out.println(ll.size());//8
 		System.out.println(ll.contains(10));//true
 		System.out.println(ll.get(6));//java
+		
+        ListIterator ltr = ll.listIterator();
+		
+		while(ltr.hasNext())
+		{
+			System.out.println(ltr.next());
+		}
+		
+		while(ltr.hasPrevious())
+		{
+			System.out.println(ltr.previous());
+		}
 		
 	}
 
