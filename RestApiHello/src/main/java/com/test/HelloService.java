@@ -5,11 +5,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("hello")
+@Path("/hello")
 public class HelloService {
 	
 	@GET
-	@Path("plain")
+	@Path("/plain")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String plainText()
 	{
